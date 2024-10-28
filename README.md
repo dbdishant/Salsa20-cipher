@@ -6,9 +6,9 @@
 ---
 
 In order to execute the code use below command in the terminal->
+```bash
 $ python salsa20.py 128 "deadbeefdeadbeefdeadbeefdeadbeef" "1234567890abcdef" "546869736973706c61696e74657874"
-$
-
+```
 * The first argument (e.g., 128) specifies the key size in bits.
 * The second argument is the key in hexadecimal format.
 * The third argument is the nonce (also in hexadecimal format).
@@ -33,26 +33,51 @@ $
 
 ### All the below test cases were working!!
 1. Test Case 1
+Command ->
+```bash
 $ python salsa20.py 64 "9add4d0ca0098aaa" "3769208a28190ec0" "54686973697361706c61696e74657874"
-$
-OUTPUT -> 4db0c1de8b570799b87c214d46ba5bce
+```
+OUTPUT ->
+```bash
+4db0c1de8b570799b87c214d46ba5bce
+```
 
 2. Test Case 2
+Command ->
+```bash
 $ python salsa20.py 128 "014689370014c327d3fbca723b39ea9e" "d6f2cdeb82f905e2" "7465787420666f722031323862697420656e6372797470696f6e"
-$
-OUTPUT -> 4fb0717e6fcbf05e16c8006240cdde1ccc33b9e24990e94675db
+```
+OUTPUT -> 
+```bash
+4fb0717e6fcbf05e16c8006240cdde1ccc33b9e24990e94675db
+```
 
 3. Test Case 3
+Command ->
+```bash
 $ python salsa20.py 128 "00112233445566778899aabbccddeeff" "0000000000000000" "5468697320697320612074657374206d6573736167652e"
-$ 
-OUTPUT-> b31da5c873b1be81d0841866078225b6cca7fdf7ec0663
+```
+OUTPUT-> 
+```bash
+b31da5c873b1be81d0841866078225b6cca7fdf7ec0663
+```
 
 4. Test Case 4
+Command ->
+```bash
 $ python salsa20.py 256 "fb423b4a0be74f7d1e5091158b5b2a510d1e5161dc7ab8dfd495d19949adf3a3" "11d4d7e4e368c8e9" "54686973697364656372797074656474657874"
-$
-OUTPUT-> 91418d3f013015b6dab24e443db06166ea4188
+```
+OUTPUT-> 
+```bash
+91418d3f013015b6dab24e443db06166ea4188
+```
 
-5. Test Case 5
+6. Test Case 5
+Command ->
+```bash
 $ python salsa20.py 128 "deadbeefdeadbeefdeadbeefdeadbeef" "1234567890abcdef" "546869736973706c61696e74657874"
-$
-OUTPUT-> a1c7720e1abadb96e5a2600d0ce028
+```
+OUTPUT->
+```bash
+a1c7720e1abadb96e5a2600d0ce028
+```
