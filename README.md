@@ -1,7 +1,12 @@
 # Salsa20/12 Cipher Implementation
 
-**Prog language used** -> Python3
-**Status**-> salsa20.py file contains all the expected functions for Salsa20/12 cipher and they're all complete. 
+### Project Overview
+This project implements a subset of the Salsa20 encryption algorithm called Salsa20/12, which involves 12 rounds of the core Salsa20 function. Salsa20/12 is a secure, lightweight stream cipher that efficiently handles encryption using keys and nonces. This implementation in Python allows users to experiment with different key sizes and inputs while gaining insights into the mechanics of stream ciphers.
+
+---
+
+**Prog language used** -> Python3 <br>
+**Status**-> salsa20.py file contains all the expected functions for Salsa20/12 cipher as per the [spec](https://github.com/dbdishant/Salsa20-cipher/blob/main/spec.pdf) and they're all complete. 
 
 ---
 
